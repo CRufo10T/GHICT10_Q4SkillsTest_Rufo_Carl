@@ -2,8 +2,8 @@
 from pyscript import display, document
 import numpy as np
 import logging
-logging.getLogger('Matplotlib').setLevel(logging.ERROR)
 import matplotlib.pyplot as plt
+logging.getLogger('Matplotlib').setLevel(logging.ERROR)
 plt.figure()
 plt.plot([0,1], [0,1])
 plt.close()
