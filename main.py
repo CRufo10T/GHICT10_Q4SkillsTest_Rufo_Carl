@@ -26,6 +26,6 @@ def Wallahi(e):
     plt.xlabel("days")
     plt.ylabel("absences")
     plt.grid()
-    plt.show()
+     display(plt, target="output")
 
  
