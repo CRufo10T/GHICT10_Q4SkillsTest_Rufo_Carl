@@ -27,5 +27,10 @@ h1{
 p{
     text-align: center;
 }
-       
-   
+.footer {
+    background-color: #1e7e34;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
