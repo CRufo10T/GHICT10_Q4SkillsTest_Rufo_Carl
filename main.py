@@ -17,15 +17,18 @@ def Wallahi(e):
     index = list(days).index(day)
 
     value = int(document.getElementById("absences").value)
-
     absences[index] += value
 
-    plt.clf()
+    document.getElementById("output").innerHTML = ""
+
+    plt.close()
+    plt.figure()
     plt.bar(days, absences)
     plt.title("Absences Plot")
     plt.xlabel("days")
     plt.ylabel("absences")
     plt.grid()
-     display(plt, target="output")
+
+    display(plt, target="output")
 
  
